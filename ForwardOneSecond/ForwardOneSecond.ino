@@ -16,7 +16,7 @@ void setup()                                 // Built-in initialization block
                                              // Full speed forward
   servoLeft.writeMicroseconds(1300);         // Left wheel counterclockwise
   servoRight.writeMicroseconds(1700);        // Right wheel clockwise
-  delay(17780);                               // ...for 1 second
+  delay(1714);                               // ...for 1 second
   
   servoLeft.detach();                        // Stop sending servo signals
   servoRight.detach(); 
